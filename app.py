@@ -62,6 +62,10 @@ def build_system() -> HealthcareDiagnosticAgent:
     ml_module.train(verbose=False)
     dnn_module.train(epochs=30, verbose=0)
 
+    # Generate and save the evaluation plots to the disk
+    ml_module.plot_evaluation()
+    dnn_module.plot_training()
+
     # Register modules with the Intelligent Agent
     agent.register_module('Knowledge Base', kb_module)  
     agent.register_module('Bayesian Network', bayes_module)  

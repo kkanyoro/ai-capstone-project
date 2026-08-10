@@ -205,3 +205,4 @@ class NeuralDiagnosticModel:
         plt.tight_layout()
         plt.savefig("nn_training.png", dpi=150)
         plt.show()
+        print("✅ Saved: nn_training.png")

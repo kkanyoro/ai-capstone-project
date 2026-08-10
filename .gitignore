@@ -1,0 +1,25 @@
+# Python & Environment
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.env
+
+# Project-Specific Generated Files
+# ML and Neural Network evaluation plots
+ml_evaluation.png
+nn_training.png
+
+# IDEs & OS Files
+# VS Code
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
