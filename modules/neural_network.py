@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 
 class NeuralDiagnosticModel:
     """
-    Deep Neural Network for medical diagnosis.
+    Deep Neural Network for medical diagnosis
     Architecture: Input → Dense → BN → Dropout → Output
     """
 
