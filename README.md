@@ -45,8 +45,8 @@ Ensure you have the following installed on your machine:
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/sirrom/Capstone-Project-Intelligent-Healthcare-Diagnostic-Assistant.git
-cd ai-capstone-healthcare
+git clone https://github.com/kkanyoro/ai-capstone-project.git
+cd ai-capstone-project
 ```
 
 
