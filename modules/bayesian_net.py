@@ -87,7 +87,7 @@ class SimpleBayesianDiagnostics:
                 log_prob += np.log(p_s_given_d)
             posteriors[disease] = log_prob
 
-        # Convert log-probabilities to probabilities
+        # Convert log-probabilities to the probabilities
         max_log = max(posteriors.values())
         exp_probs = {d: np.exp(v - max_log)
                      for d, v in posteriors.items()}
