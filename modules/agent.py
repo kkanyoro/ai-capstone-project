@@ -1,6 +1,6 @@
 # ============================================================
 # MODULE 1: Intelligent Agent — Healthcare Diagnostic Agent
-# Covers: Week 2 (Intelligent Agents) + PEAS Framework
+# Covers: Week 2 (Intelligent Agents) + PEAS Frameworks
 # ============================================================
 
 from enum import Enum
